@@ -9,6 +9,16 @@
       "value": "sandbox",
       "required": true
     },
+    "RECEIPT_VERIFICATION_URL_SANDBOX": {
+      "description": "sandbox URL for receipt validation",
+      "value": "https://sandbox.itunes.apple.com/verifyReceipt",
+      "required": true
+    },
+    "RECEIPT_VERIFICATION_URL_PRODUCTION": {
+      "description": "production URL for receipt validation",
+      "value": "https://buy.itunes.apple.com/verifyReceipt",
+      "required": true
+    },
     "APP_SPECIFIC_SHARED_SECRET": {
       "description": "Your app's shared secret from iTunes Connect (a hexadecimal string).",
       "required": true
